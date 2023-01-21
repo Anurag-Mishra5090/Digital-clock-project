@@ -1,0 +1,195 @@
+body{
+    background-color:#3D087B ;
+}
+.mainform{
+    background-color: aliceblue;
+    width: 70%;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 1.5EM;
+
+}
+#wake{
+    width: 150px;
+    margin-left: 20px;
+}
+.line{
+    border-left: 5px solid #3D087B;
+    height: 50px;
+    width: 94%;
+    margin: auto;
+}
+.wakeup{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.lunch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.night{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lunch{
+    width: 150px;
+    margin-left: 20px;
+}
+#naptime{
+    width: 150px;
+    margin-left: 20px;
+}
+#nighttime{
+    width: 150px;
+    margin-left: 20px;
+}
+.massage{
+    background-color:#9140B5 ;
+    font-weight: bold;
+    font-size: 2em;
+    color:white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 33px;
+}
+.alarm{
+    background: linear-gradient(to right, #6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+
+    width: 45%;
+    height: 20%;
+
+    font-weight:bold;
+    font-size: 1.5em;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.time{
+background-color:#FFFFFF ;
+color: #3D087B;
+display: flex;
+margin-top: 10%;
+width: 50%;
+padding: 40px;
+border-radius: 10px;
+justify-content: space-around;
+align-items: center;
+margin: 10px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.display{
+    width: 45%;
+}
+.display2{
+    width: 45%; ;
+}
+#hrs{
+    background-image: url("./assest/timeline.png");
+    height: 50px;
+    width: 50px;
+    font-size:2em ;
+    text-align: center;
+    padding: 5px;
+}
+#mins{
+    background-image: url("./assest/timeline.png");
+    height: 50px;
+    width: 50px;
+    font-size:2em ;
+    text-align: center;
+    padding: 5px;
+}
+#secs{
+    background-image: url("./assest/timeline.png");
+    height: 50px;
+    width: 50px;
+    font-size:2em ;
+    text-align: center;
+    padding: 5px;
+}
+#ATT{
+    background-image: url("./assest/AM_svg.png");
+    height: 50px;
+    width: 50px;
+    font-size:2em ;
+    text-align: center;
+    padding: 5px;
+}
+.massage2{
+    background-color: #FFFFFF;
+    font-weight: 900;
+    color:#8E53F0 ;
+    margin: 30px;
+    width: 60%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+}
+.timemassage{
+    background-color:#9140B5 ;
+    color:#F25CFE ;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+}
+.alrm{
+    width: 110%;
+    display: flex;
+
+}
+
+@media screen and (max-width: 400px){
+.main{
+    display: block;
+}
+.mainform{
+    width: 100%;
+}
+.massage{
+    width: 100%;
+}
+.alarm{
+  
+    width: 50%;
+}
+.time{
+    width: 100%;
+}
+.massage2{
+    width: 100%;
+}
+.display{
+    width: 100%;
+}
+.display2{
+    width: 100%;
+}
+.time{
+    margin: 20px;
+}
+.timemassage{
+    width: 60%;
+}
+.alrm{
+    width: 130%;
+}
+
+}
