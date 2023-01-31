@@ -36,7 +36,8 @@ var wake = document.querySelector("#wake").value
 var lunch = document.querySelector("#lunch").value
 var nap = document.querySelector("#naptime").value
 var night = document.querySelector("#nighttime").value
-console.log(lunch);
+
+
 var splitwake = wake.split(' ')
 var splitlunch = lunch.split(' ')
 var splitnap = nap.split(' ')
@@ -52,11 +53,12 @@ abc.addEventListener("click",()=>{
   document.querySelector('#p4').innerText=`Night time:${night}`
  
   console.log(hours+AT);
-  console.log(splitlunch[0]);
+ 
 
   if(splitwake[0]===(hours + AT) ){
 document.querySelector('.massage').innerText='Good Morning!!'
 document.querySelector('.massage2').innerText= 'Grab Some Healthy Breakfast!!'
+document.querySelector('.photo').innerHTML= '<img src="./assest/Component 30 – 1.png" alt=""></img>'
   }
   else if(splitlunch[0]===(hours + AT) ){
     document.querySelector('.massage').innerText='Good Afternoon!!'
